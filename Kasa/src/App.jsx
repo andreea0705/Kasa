@@ -1,10 +1,22 @@
+//composant principal react, ici on gere le routage ou les components globaux
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Router from "./router/router";
 
 function App() {
   const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <Header />
+      <Router />
+      <Footer />
+    </>
+  );
 
   return (
     <>
