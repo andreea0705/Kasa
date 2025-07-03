@@ -10,7 +10,7 @@
   background: #ff6060;
   border-radius: 5px;
   height: 47px;
-  width: 90%;
+  width: 80%;
   position: relative;
   display: flex;
   align-items: center;
@@ -89,6 +89,7 @@
 
   .collapse-title {
     height: 30px;
+    width: 100%;
   }
 
   .collapse-title h3 {

@@ -1,3 +1,4 @@
+//afficher du contenu repliable/dépliable
 import "../css/collapse.css";
 import { useState } from "react";
 import ArrowUp from "../assets/icons/arrow-up.svg";

@@ -1,8 +1,8 @@
 .about-container {
-  padding: 0px 68px;
+  
   margin-top: 44px;
-  margin-bottom: 200px;
-  width: 96%;
+  margin-bottom: 50px;
+  width: 100%;
   position: relative;
   border-radius: 25px;
 }
@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 950px) {
   .about-container {
-    padding: 0px 20px;
+    
     margin-top: 20px;
     border-radius: 10px;
   }
@@ -30,5 +30,6 @@
   .moutain {
     border-radius: 10px;
     height: 111px;
+    width: 100%;
   }
 }

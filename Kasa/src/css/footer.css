@@ -6,7 +6,6 @@
   flex-direction: column;
   height: 210px;
   width: 100%;
-  margin-left: 40px;
 }
 .footer-kasa img {
   width: 100px;
@@ -22,7 +21,8 @@
 
 @media screen and (max-width: 950px) {
   .footer-kasa{
-    margin-left: 0px;
+  
+    width: 100%;
   }
   .footer-kasa p {
     font-size: 12px;
