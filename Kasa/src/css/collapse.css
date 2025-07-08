@@ -19,19 +19,19 @@
 
 .Arrow {
   transition: all 0.2s ease-in-out;
-  width: 12px;
+  /*width: 12px;*/
 }
 
 .arrowDown {
   position: absolute;
-  top: 9px;
+  
   right: 9px;
   transform: rotate(180deg);
 }
 
 .arrowUp {
   position: absolute;
-  top: 9px;
+  
   right: 9px;
   transform: rotate(0deg);
 }
