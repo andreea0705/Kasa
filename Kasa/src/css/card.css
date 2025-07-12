@@ -25,11 +25,12 @@
 .home-card h3 {
   position: absolute;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   color: #ffffff;
-  bottom: 20px;
+  bottom: 10px;
   left: 20px;
   max-width: 200px;
+  margin: 0;
 }
 
 @media screen and (max-width: 950px) {
