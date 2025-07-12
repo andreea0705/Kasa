@@ -10,6 +10,7 @@ const About = () => {
       <img className="moutain" src={Mountain} alt=" montagne" />
       <div className="about-collapse-container">
         <Collapse
+          width="77%"
           state={{
             title: "Fiabilité",
             description:
@@ -17,6 +18,7 @@ const About = () => {
           }}
         />
         <Collapse
+          width="77%"
           state={{
             title: "Respect",
             description:
@@ -24,6 +26,7 @@ const About = () => {
           }}
         />
         <Collapse
+          width="77%"
           state={{
             title: "Service",
             description:
@@ -31,6 +34,7 @@ const About = () => {
           }}
         />
         <Collapse
+          width="77%"
           state={{
             title: "Sécurité",
             description:

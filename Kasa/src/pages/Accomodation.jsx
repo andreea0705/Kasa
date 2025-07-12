@@ -59,6 +59,7 @@ const Accomodation = () => {
                 <div className="collapse-description">
                   {dataAccomodation[0] && (
                     <Collapse
+                      width="73%"
                       state={{
                         title: "Description",
                         description: dataAccomodation[0].description,
@@ -70,6 +71,7 @@ const Accomodation = () => {
                 <div className="collapse-equipment">
                   {dataAccomodation[0] && (
                     <Collapse
+                      width="73%"
                       state={{
                         title: "Equipments",
                         equipments: dataAccomodation[0].equipments,

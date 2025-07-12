@@ -57,6 +57,9 @@
   opacity: 0;
   height: 0;
 }
+.collapse-content ul{
+  padding-left: 0%;
+}
 .collapse-content li {
   font-weight: 400;
   font-size: 18px;

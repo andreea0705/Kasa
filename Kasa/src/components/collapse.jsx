@@ -4,7 +4,7 @@ import { useState } from "react";
 import ArrowUp from "../assets/icons/arrow-up.svg";
 import ArrowDown from "../assets/icons/arrow-down.svg";
 
-const Collapse = ({ state, defaultState = false }) => {
+const Collapse = ({ state, defaultState = false, width = "100%" }) => {
   const [toggle, setToggle] = useState(defaultState);
 
   const toggleHandler = () => {
@@ -21,7 +21,7 @@ const Collapse = ({ state, defaultState = false }) => {
           alt="show content"
         />
       </div>
-      <div className={toggle ? "collapse-content" : "collapse-content-hidden"}>
+      <div className={toggle ? "collapse-content" : "collapse-content-hidden"} style={{ width }}>
         {state.equipments === undefined ? (
           <p>{state.description}</p>
         ) : (
