@@ -24,7 +24,8 @@ const Slider = (images) => {
   return (
     <div className="slider-container">
       <img className="slider-img" src={actualImage} alt="chambre d'un hôte" />
-      <div className="sup-container">
+      {slideLength > 1 && ( //une condition autour du bloc sup-container, pour que les flèches et le compteur ne s'affichent que s il y a plusieurs images
+        <div className="sup-container">
         <img
           onClick={slideLeft}
           className="arrow arrow-left"
@@ -40,7 +41,8 @@ const Slider = (images) => {
           src={arrowRight}
           alt="arrow right"
         />
-      </div>
+        </div>
+      )}   
     </div>
   );
 };
